@@ -1,0 +1,15 @@
+
+
+java:S4144À"jUpdate this method so that its implementation is not identical to "createUserWithDescription" on line 121.(Æé¨œ
+n
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ë¦ùÿÿÿÿ
+d
+java:S3655´"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(´ñìšşÿÿÿÿ
+k
+java:S3655f"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(æëÊ§ùÿÿÿÿ
+g
+java:S3655Î"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(éãÅ
+l
+java:S3655Ô"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÆôŠŸşÿÿÿÿ
+^
+java:S3655V"HCall "role.isPresent()" or "!role.isEmpty()" before accessing the value.(ÀšùÌ

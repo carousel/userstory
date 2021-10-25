@@ -1,0 +1,13 @@
+
+¼
+java:S1845"™Rename field "LOGGER" to prevent any misunderstanding/clash with field "logger" defined in superclass "org.springframework.web.filter.GenericFilterBean".(ùò”“úÿÿÿÿ8»üï´Ë/
+[
+java:S1172"9Remove this unused method parameter "userDetailsService".(Ş¾Ãòúÿÿÿÿ8Àüï´Ë/
+I
+java:S16021",Remove useless curly braces around statement(ÉñÊ8Åüï´Ë/
+I
+java:S16023",Remove useless curly braces around statement(ÉÊÁÍ8Êüï´Ë/
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ù×¦Êøÿÿÿÿ8Òüï´Ë/
+
+java:S4165"lRemove this useless assignment; "detailsService" already holds the assigned value along all execution paths.(ù×¦Êøÿÿÿÿ8áüï´Ë/

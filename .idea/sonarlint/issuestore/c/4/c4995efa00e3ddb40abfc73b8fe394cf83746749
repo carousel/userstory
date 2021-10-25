@@ -1,0 +1,19 @@
+
+d
+java:S1128"GRemove this unused import 'com.miro.userstory.security.beans.UserBean'.(›«‘é8ÿæ–µË/
+L
+java:S1128"/Remove this unused import 'lombok.AccessLevel'.(ˆ¥ó¹8€ç–µË/
+]
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8‚ç–µË/
+d
+java:S1128"BRemove this unused import 'javax.validation.constraints.NotBlank'.(µã‡ıÿÿÿÿ8„ç–µË/
+Y
+java:S1128"7Remove this unused import 'java.security.SecureRandom'.(›éè™úÿÿÿÿ8„ç–µË/
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8…ç–µË/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8…ç–µË/
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8…ç–µË/
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8…ç–µË/

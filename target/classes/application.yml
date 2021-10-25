@@ -1,0 +1,70 @@
+spring:
+  profiles: dev
+  jackson:
+    default-property-inclusion: NON_EMPTY
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:user-story
+    driverClassName: org.h2.Driver
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 8081
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: false
+logging:
+  file:
+    path: logs
+    name: ${logging.file.path}/user-story.log}
+security:
+  jwt:
+    token:
+      secret-key: random-secret-key-random-secret-key-random-secret-key-random-secret-key
+      expiration: 600000
+properties:
+  username: user1
+  password: user1pass
+---
+spring:
+  profiles: prod
+  jackson:
+    default-property-inclusion: NON_EMPTY
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user-story
+    username: postgres
+    password: postgres
+    initialization-mode: always
+    driverClassName: org.postgresql.Driver
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: false
+logging:
+  file:
+    path: logs
+    name: ${logging.file.path}/user-story.log}
+security:
+  jwt:
+    token:
+      secret-key: random-secret-key-random-secret-key-random-secret-key-random-secret-key
+      expiration: 600000
+properties:
+  username: user1
+  password: user1pass
